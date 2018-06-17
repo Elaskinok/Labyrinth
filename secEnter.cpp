@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+#include <iostream>
 
 int securitedEnter(int left_barricade, int right_barricade) {
 	int flag;
@@ -11,3 +11,8 @@ int securitedEnter(int left_barricade, int right_barricade) {
 	puts("");
 	return answer;
 }
+
+//int securitedEnter(int left_barricade, int right_barricade) {
+//	int result = {};
+//	std::cin >> result;
+//}

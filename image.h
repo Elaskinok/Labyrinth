@@ -22,7 +22,7 @@ public:
 	friend Handler;
 
 
-	friend void drawlabirint(Matrix& lab, int width, int height);
+	friend void drawlabirint(Matrix& lab, int width, int height, const char* fileName);
 
 	bool createNewImage(const char* fileName);
 

@@ -17,8 +17,10 @@ public:
 	Points createNeighborsList(int y, int x);
 
 
-	friend void drawlabirint(Matrix& lab, int width, int height);
+	friend void drawlabirint(Matrix& lab, int width, int height, const char*);
 	friend bool passageLabyrinth(Matrix& labyrinth, int, int);
+
+	friend int middleCoord(Matrix& matrix);
 	~Matrix();
 private:
 	int** arrays;

@@ -1,13 +1,2 @@
-﻿  secEnter.cpp
-  point.cpp
-  matrix.cpp
-  main.cpp
-e:\porjects\labyrinth\labyrinth\main.cpp(30): warning C4309: '=': truncation of constant value
-e:\porjects\labyrinth\labyrinth\main.cpp(31): warning C4309: '=': truncation of constant value
-e:\porjects\labyrinth\labyrinth\main.cpp(32): warning C4309: '=': truncation of constant value
-e:\porjects\labyrinth\labyrinth\main.cpp(41): warning C4309: '=': truncation of constant value
-e:\porjects\labyrinth\labyrinth\main.cpp(75): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  image.cpp
-  Generating Code...
-  Labyrinth.vcxproj -> E:\porjects\Labyrinth\Debug\Labyrinth.exe
+﻿  Labyrinth.vcxproj -> E:\porjects\Labyrinth\Debug\Labyrinth.exe
   Labyrinth.vcxproj -> E:\porjects\Labyrinth\Debug\Labyrinth.pdb (Partial PDB)

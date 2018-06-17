@@ -76,6 +76,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <StackReserveSize>3000000000</StackReserveSize>
+    </Link>
+    <Link>
+      <StackCommitSize>3000000000</StackCommitSize>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -83,6 +89,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <StackReserveSize>2000000000</StackReserveSize>
+    </Link>
+    <Link>
+      <StackCommitSize>2000000000</StackCommitSize>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -95,6 +107,8 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>3000000000</StackReserveSize>
+      <StackCommitSize>3000000000</StackCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -108,6 +122,8 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>2000000000</StackReserveSize>
+      <StackCommitSize>2000000000</StackCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
